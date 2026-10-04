@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>بناء هندسة البرمجيات القابلة للتوسع | Dev-DZ</title>
+  <meta name="description" content="مقال حول المبادئ الأساسية لبناء النظم البرمجية القابلة للتوسع مع ازدياد عدد المستخدمين والبيانات.">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5656416032906373" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Dev-DZ <span>🇩🇿</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="tools.html">أدوات المطورين</a></li>
+        <li><a href="articles.html" class="active">المقالات والدروس</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle-btn">🌙 المظهر الداكن</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="grid-layout">
+      <article class="main-content card">
+        <span class="badge">هندسة البرمجيات</span>
+        <h1 style="margin-top: 0.5rem; margin-bottom: 1rem;">كيفية بناء هندسة البرمجيات القابلة للتوسع (Scalable Architecture)</h1>
+        <p style="color: var(--secondary-color); margin-bottom: 1.5rem;">بقلم فريق Dev-DZ | تاريخ النشر: 10 أكتوبر 2026</p>
+
+        <p>مع نمو المشاريع البرمجية وازدياد قاعدة المستخدمين، تصبح كيفية تصميم النظام البرمجي ليتعامل مع هذا الضغط دون انهيار أو بطء شديد أحد أهم التحديات التي تواجه الفرق البرمجية.</p>
+
+        <h2 style="margin-top: 1.5rem; margin-bottom: 0.8rem;">1. التوسع الأفقـي مقابل العمودي (Horizontal vs Vertical Scaling)</h2>
+        <p>التوسع العمودي يعني زيادة قدرات خادم واحد (RAM / CPU)، لكن له حدود فيدرالية وتكلفة عالية. بينما التوسع الأفقي يعتمد على إضافة خوادم متعددة وتوزيع الأحمال بينها باستخدام موازنات الحمل (Load Balancers)، وهو الخيار الأفضل للنظم الحديثة.</p>
+
+        <div class="ad-container">
+          <small>مساحة إعلانية داخل المقال</small>
+        </div>
+
+        <h2 style="margin-top: 1.5rem; margin-bottom: 0.8rem;">2. الـ Microservices وتفكيك النظام الأحدي (Monolith)</h2>
+        <p>تقسيم النظام الكلي إلى خدمات مستقلة صغيرة يتواصل بعضها مع بعض عبر APIs أو الرسائل يجعل صيانة وتوسع كل جزء ممكناً بشكل منفصل دون التأثير على بقية أجزاء النظام.</p>
+
+        <h2 style="margin-top: 1.5rem; margin-bottom: 0.8rem;">3. إدارة قواعد البيانات وقنوات التراسل (Database Sharding & Queues)</h2>
+        <p>استخدام قواعد البيانات الموزعة وتقنيات Sharding بالإضافة إلى أنظمة التراسل مثل RabbitMQ أو Kafka يضمن تنفيذ العمليات الكثيفة في الخلفية دون تعطيل واجهة المستخدم.</p>
+      </article>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h3>مقالات ذات صلة</h3>
+          <ul style="list-style: none;">
+            <li style="margin-bottom: 0.8rem;"><a href="article-1.html">دليل تحسين أداء تطبيقات ويب</a></li>
+            <li><a href="article-3.html">استراتيجيات الأمان الحيوية لتطبيقات الويب</a></li>
+          </ul>
+        </div>
+        <div class="ad-container">
+          <small>مساحة إعلانية جانبيّة</small>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Dev-DZ. جميع الحقوق محفوظة.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+        <li><a href="terms.html">الشروط والأحكام</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>استراتيجيات الأمان الحيوية لتطبيقات الويب | Dev-DZ</title>
+  <meta name="description" content="أفضل الممارسات البرمجية لتأمين تطبيقات الويب وحمايتها من ثغرات OWASP والوصول غير المصرح به.">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5656416032906373" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Dev-DZ <span>🇩🇿</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="tools.html">أدوات المطورين</a></li>
+        <li><a href="articles.html" class="active">المقالات والدروس</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle-btn">🌙 المظهر الداكن</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="grid-layout">
+      <article class="main-content card">
+        <span class="badge">الأمن السيبراني</span>
+        <h1 style="margin-top: 0.5rem; margin-bottom: 1rem;">استراتيجيات الأمان الحيوية لتطبيقات الويب وحماية أدوات الدفع</h1>
+        <p style="color: var(--secondary-color); margin-bottom: 1.5rem;">بقلم فريق Dev-DZ | تاريخ النشر: 5 أكتوبر 2026</p>
+
+        <p>تظل الحماية والأمن من الركائز التي لا يمكن التغاضي عنها عند إنشاء البرمجيات والتطبيقات. هجمات حجب الخدمة والثغرات الأمنية تكلف الشركات والمطورين خسائر فادحة إذا لم يتم اتخاذ الاحتياطات اللازمة منذ مرحلة التخطيط والكتابة الأولى للكود.</p>
+
+        <h2 style="margin-top: 1.5rem; margin-bottom: 0.8rem;">1. التعقيم والتحقق من المدخلات (Input Sanitization & Validation)</h2>
+        <p>السبب الرئيسي لثغرات حقن أوامر SQL (SQL Injection) والهجمات الخبيثة من نوع XSS هو الثقة بالمدخلات القادمة من المستخدم دون فحصها. استخدم دائماً الاستعلامات المعلمة (Parameterized Queries) والمكتبات الموثوقة لتنقية النصوص قبل إدخالها لقواعد البيانات.</p>
+
+        <div class="ad-container">
+          <small>مساحة إعلانية داخل المقال</small>
+        </div>
+
+        <h2 style="margin-top: 1.5rem; margin-bottom: 0.8rem;">2. إدارة الجلسات والمصادقة الآمنة (Session & Auth Management)</h2>
+        <p>احرص على استخدام رموز JWT آمنة ومُشفرة، وتفعيل خاصية <code>HttpOnly</code> و <code>SameSite</code> على ملفات تعريف الارتباط لمنع سرقة الجلسات عبر السكريبتات الخبيثة.</p>
+
+        <h2 style="margin-top: 1.5rem; margin-bottom: 0.8rem;">3. تفعيل بروتوكول HTTPS وتوليد الترويسات الأمنية (Security Headers)</h2>
+        <p>تشفير حركة المرور باستخدام شهادات SSL/TLS وتفعيل ترويسات الأمان مثل Content Security Policy (CSP) و Strict-Transport-Security (HSTS) يعزز من مناعة الموقع ضد التنصت والهجمات الوسيطة.</p>
+      </article>
+
+      <aside class="sidebar">
+        <div class="card">
+          <h3>مقالات ذات صلة</h3>
+          <ul style="list-style: none;">
+            <li style="margin-bottom: 0.8rem;"><a href="article-1.html">دليل تحسين أداء تطبيقات ويب</a></li>
+            <li><a href="article-2.html">بناء هندسة البرمجيات القابلة للتوسع</a></li>
+          </ul>
+        </div>
+        <div class="ad-container">
+          <small>مساحة إعلانية جانبيّة</small>
+        </div>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Dev-DZ. جميع الحقوق محفوظة.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+        <li><a href="terms.html">الشروط والأحكام</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

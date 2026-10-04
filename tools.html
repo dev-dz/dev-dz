@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أدوات المطورين التفاعلية | Dev-DZ</title>
+  <meta name="description" content="مجموعة من الأدوات البرمجية التفاعلية المباشرة كـ JSON Formatter، Base64 Encoder/Decoder، و SHA-256 Generator.">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5656416032906373" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo">Dev-DZ <span>🇩🇿</span></a>
+      <ul class="nav-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="tools.html" class="active">أدوات المطورين</a></li>
+        <li><a href="articles.html">المقالات والدروس</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+      <button id="theme-toggle" class="theme-toggle-btn">🌙 المظهر الداكن</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <div class="hero">
+      <h1>أدوات المطورين المجانية السريعة</h1>
+      <p>أدوات تعمل بالكامل داخل متصفحك بشكل آمن وسريع وبدون إرسال أية بيانات إلى الخادم.</p>
+    </div>
+
+    <div class="ad-container">
+      <ins class="adsbygoogle"
+           style="display:block"
+           data-ad-client="ca-pub-5656416032906373"
+           data-ad-slot="1234567890"
+           data-ad-format="auto"
+           data-full-width-responsive="true"></ins>
+      <script>
+           (adsbygoogle = window.adsbygoogle || []).push({});
+      </script>
+      <small>مساحة إعلانية (Google AdSense)</small>
+    </div>
+
+    <!-- Tool 1: JSON Formatter & Validator -->
+    <section class="card tool-section" id="json-tool">
+      <h2>1. أداة منسق ومحلل JSON (JSON Formatter & Validator)</h2>
+      <p style="margin-bottom: 1rem; color: var(--secondary-color);">قم بلصق نص JSON لتنسيقه أو ضغطه أو التحقق من صحة القواعد فيه:</p>
+      <textarea id="json-input" class="tool-textarea" placeholder='{"name": "Dev-DZ", "country": "Algeria", "active": true}'></textarea>
+      <div>
+        <button onclick="formatJSON()" class="btn">تنسيق (Format)</button>
+        <button onclick="minifyJSON()" class="btn btn-secondary">ضغط (Minify)</button>
+      </div>
+      <div id="json-output" class="tool-output">النتيجة ستظهر هنا...</div>
+    </section>
+
+    <!-- Tool 2: Base64 Encoder / Decoder -->
+    <section class="card tool-section" id="base64-tool">
+      <h2>2. أداة مشفر ومفكك تشفير Base64</h2>
+      <p style="margin-bottom: 1rem; color: var(--secondary-color);">تشفير النصوص إلى صيغة Base64 أو استرجاع النص الأصلي بكل سهولة:</p>
+      <textarea id="base64-input" class="tool-textarea" placeholder="أدخل النص هنا للتشفير أو الكود لفك التشفير..."></textarea>
+      <div>
+        <button onclick="encodeBase64()" class="btn">تشفير (Encode)</button>
+        <button onclick="decodeBase64()" class="btn btn-secondary">فك التشفير (Decode)</button>
+      </div>
+      <div id="base64-output" class="tool-output">النتيجة ستظهر هنا...</div>
+    </section>
+
+    <!-- Tool 3: SHA-256 Hash Generator -->
+    <section class="card tool-section" id="sha256-tool">
+      <h2>3. أداة مولد الهاش SHA-256</h2>
+      <p style="margin-bottom: 1rem; color: var(--secondary-color);">توليد التوقيع الرقمي (SHA-256 Digest) للتحقق من سلامة البيانات والنصوص:</p>
+      <textarea id="hash-input" class="tool-textarea" placeholder="أدخل النص المراد توليد هاش SHA-256 له..." oninput="generateSHA256()"></textarea>
+      <div>
+        <button onclick="generateSHA256()" class="btn">توليد SHA-256</button>
+      </div>
+      <div id="hash-output" class="tool-output">النتيجة ستظهر هنا...</div>
+    </section>
+
+    <div class="ad-container">
+      <small>مساحة إعلانية أسفل الأدوات</small>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>&copy; 2026 Dev-DZ. جميع الحقوق محفوظة.</p>
+      <ul class="footer-links">
+        <li><a href="index.html">الرئيسية</a></li>
+        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+        <li><a href="terms.html">الشروط والأحكام</a></li>
+        <li><a href="about.html">من نحن</a></li>
+        <li><a href="contact.html">اتصل بنا</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
